@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: relative;
+}
+.circle1, .circle2, .circle3, .circle4, .circle5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* position: absolute; */
+}
+.circle1 {
+    width: 400px;
+    height: 400px;
+    background-color: #FF5722; /* Outer circle color */
+}
+.circle2 {
+    width: 320px;
+    height: 320px;
+    background-color: #4CAF50; /* Second circle color */
+}
+.circle3 {
+    width: 240px;
+    height: 240px;
+    background-color: #2196F3; /* Third circle color */
+}
+.circle4 {
+    width: 160px;
+    height: 160px;
+    background-color: #FFEB3B; /* Fourth circle color */
+}
+.circle5 {
+    width: 80px;
+    height: 80px;
+    background-color: #9C27B0; /* Inner circle color */
+}

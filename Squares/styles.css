@@ -1,0 +1,58 @@
+.item {
+    background-color: #09f7f7;
+    color: rgb(15, 15, 15);
+    padding: 20px;
+   
+    text-align: center;
+    border: 5px solid rgb(253, 252, 252);
+}
+.item:hover {
+   width:100px;
+   height: 100px;
+    transition: 2s;
+
+transform: rotate(360deg);
+}
+
+.demo{
+    width:300px;
+    height:300px;
+    background-color: rgb(27, 19, 21);
+}
+.middle:hover {
+   
+    transition: 3s;
+
+transform: rotate(360deg);
+}
+.demo:hover {
+   
+    transition: 5s;
+
+transform: rotate(360deg);
+}
+   
+     
+
+
+.smp{
+    width:400px;
+    height:400px;
+    background-color: rgb(147, 252, 161);
+
+    
+}
+.smp,.demo,.container,.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
+   
+}
+.middle{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
